@@ -50,16 +50,9 @@ th {
 
 	<h3>Refereed articles</h3>
 <style>
-ol {
-    counter-reset: list;
-}
-ol > li {
-    list-style: none;
-}
-ol > li:before {
-    content: "[" counter(list) "] ";
-    counter-increment: list;
-}
+ol {list-style-type: none;}
+li:before {content: "[" counter(section, lower-alpha) "] ";}
+li { counter-increment: section;}
 </style>
 	<ol>
 	<li>A. M. Ruf<br>Convergence of a Full Discretization for a Second-Order Nonlinear Elastodynamic Equation in Isotropic and Anisotropic Orlicz Spaces<br>
