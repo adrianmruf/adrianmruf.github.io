@@ -50,8 +50,14 @@ th {
 
 	<h3>Refereed articles</h3>
 <style>
+ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+}
 ol > li:before {
-    content: "[ " counter(list) "] ";
+    content: "[" counter(list) "] ";
     counter-increment: list;
 }
 </style>
