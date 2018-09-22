@@ -40,17 +40,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
-ol {
-    counter-reset: list;
-}
-ol > li {
-    list-style: none;
-    position: relative;
-}
-ol > li:before {
-    counter-increment: list;
-    content: "[" counter(list) "] ";
-    position: absolute;
-    left: -1.4em;
-}
