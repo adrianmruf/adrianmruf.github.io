@@ -46,8 +46,7 @@ ol {
 }
 
 ol > li {
-  list-style: none;
-  list-style-position: outside;
+  list-style: outside;
   margin-left: 1em;
 }
 ol > li:before {
