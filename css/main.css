@@ -44,9 +44,12 @@ ul.posts li {
 ol {
   counter-reset: list;
 }
+ol li {
+    list-style-position: outside;
+    margin-left: 1em;
+}
 ol > li {
   list-style: none;
-  display: inline;
 }
 ol > li:before {
   content: "[" counter(list) "] ";
