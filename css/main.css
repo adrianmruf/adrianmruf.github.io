@@ -46,6 +46,7 @@ ol {
 }
 ol > li {
   list-style: none;
+  text-indent: -1em;
 }
 ol > li:before {
   content: "[" counter(list) "] ";
