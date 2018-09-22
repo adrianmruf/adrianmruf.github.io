@@ -41,7 +41,7 @@ ul.posts li {
     list-style: none;
 }
 
-ol reversed > li:before {
+ol > li:before {
     content:"(" counter(list) ") "
     counter-increment:list;
 }
