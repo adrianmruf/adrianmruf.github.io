@@ -40,3 +40,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+ol > li:before {
+    content:"(" counter(list) ") "
+    counter-increment:list;
+}
