@@ -43,7 +43,7 @@ ul.posts li {
 
 
 ol {
-    counter-reset: list;
+    counter-reset: list 2;
     margin: 0;
 }
 
@@ -53,7 +53,7 @@ ol > li {
 }
 
 ol > li:before {
-    counter-increment: list;
+    counter-increment: list -1;
     content: "["counter(list, decimal) "] ";
     position: absolute;
     left: -2em;
