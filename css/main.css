@@ -43,7 +43,7 @@ ul.posts li {
 
 
 ol {
-    counter-reset: list 4;
+    counter-reset: list 5;
     margin: 0;
 }
 
