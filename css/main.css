@@ -61,3 +61,13 @@ ol > li:before {
     position: absolute;
     left: -2em;
 }
+
+button {
+	background: none;
+	color: grey;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
