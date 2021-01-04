@@ -46,7 +46,7 @@ ul.posts li {
 
 
 ol {
-    counter-reset: list 6;
+    counter-reset: list 8;
     margin: 0;
 }
 
